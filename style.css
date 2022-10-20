@@ -1,0 +1,62 @@
+body {
+    /* font-size: 16px; */
+    margin: 0px;
+    font-family: sans-serif;
+    font-size: 18px;
+    min-height: 100vh;
+    background-color: rgb(172, 146, 146);
+
+
+}
+
+.head1-box {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.image {
+
+    background-image: url(https://user-images.githubusercontent.com/112870246/195680035-8675050a-bcd9-421f-8755-d27e4f9dfa8f.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    height: 15cm;
+    width: 20cm;
+    border-radius: 6cm;
+
+}
+
+.head1 {
+    display: flex;
+    text-align: center;
+    align-self: center;
+    width: 15cm;
+    background-color: rgb(128, 66, 66);
+    justify-content: space-between;
+
+}
+
+.head2-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(141, 106, 106);
+
+
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 7cm;
+
+
+}
+
+.head2-container {
+    text-align: center;
+
+}
